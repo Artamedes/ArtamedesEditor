@@ -117,20 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="KnNujEr" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\KnNujEr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="skybots_purple-background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\skybots_purple-background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fOUjgGf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fOUjgGf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="182559" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\182559.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="videoblocks-realistic-looping-dark-underwater-background-animation_r0mrnic6oz_thumbnail-full01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\videoblocks-realistic-looping-dark-underwater-background-animation_r0mrnic6oz_thumbnail-full01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  <metadata name="directorySearcher1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
