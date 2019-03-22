@@ -30,6 +30,7 @@
         {
             this.SAIEdit = new System.Windows.Forms.Button();
             this.Waypoints = new System.Windows.Forms.Button();
+            this.ScriptGen = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // SAIEdit
@@ -62,12 +63,28 @@
             this.Waypoints.UseVisualStyleBackColor = false;
             this.Waypoints.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ScriptGen
+            // 
+            this.ScriptGen.BackColor = System.Drawing.Color.Indigo;
+            this.ScriptGen.FlatAppearance.BorderSize = 0;
+            this.ScriptGen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ScriptGen.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScriptGen.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ScriptGen.Location = new System.Drawing.Point(297, 57);
+            this.ScriptGen.Name = "ScriptGen";
+            this.ScriptGen.Size = new System.Drawing.Size(140, 45);
+            this.ScriptGen.TabIndex = 2;
+            this.ScriptGen.Text = "ScriptGen";
+            this.ScriptGen.UseVisualStyleBackColor = false;
+            this.ScriptGen.Click += new System.EventHandler(this.ScriptGen_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ArtamedesEditor2.Properties.Resources.fOUjgGf;
             this.ClientSize = new System.Drawing.Size(897, 591);
+            this.Controls.Add(this.ScriptGen);
             this.Controls.Add(this.Waypoints);
             this.Controls.Add(this.SAIEdit);
             this.Name = "MainMenu";
@@ -80,6 +97,7 @@
 
         private System.Windows.Forms.Button SAIEdit;
         private System.Windows.Forms.Button Waypoints;
+        private System.Windows.Forms.Button ScriptGen;
     }
 }
 

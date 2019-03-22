@@ -62,6 +62,12 @@
     <Compile Include="SAIEdit.Designer.cs">
       <DependentUpon>SAIEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="ScriptCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScriptCreator.Designer.cs">
+      <DependentUpon>ScriptCreator.cs</DependentUpon>
+    </Compile>
     <Compile Include="Waypoints.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </Compile>
     <EmbeddedResource Include="SAIEdit.resx">
       <DependentUpon>SAIEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScriptCreator.resx">
+      <DependentUpon>ScriptCreator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Waypoints.resx">
       <DependentUpon>Waypoints.cs</DependentUpon>
@@ -114,6 +123,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\videoblocks-realistic-looping-dark-underwater-background-animation_r0mrnic6oz_thumbnail-full01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55539278_2070734149711546_8815038603986993152_n.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

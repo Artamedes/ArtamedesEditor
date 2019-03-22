@@ -669,7 +669,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ArtamedesEditor2.Properties.Resources.videoblocks_realistic_looping_dark_underwater_background_animation_r0mrnic6oz_thumbnail_full01;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(1807, 937);
             this.Controls.Add(this.ActionParam6_Label);
             this.Controls.Add(this.ActionParam5_Label);
             this.Controls.Add(this.ActionParam6);

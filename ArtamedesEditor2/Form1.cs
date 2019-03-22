@@ -23,10 +23,16 @@ namespace ArtamedesEditor2
             l_SAIEdit.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object p_Sender, EventArgs p_Event)
         {
             Waypoints l_Waypoints = new Waypoints();
             l_Waypoints.ShowDialog();
+        }
+
+        private void ScriptGen_Click(object p_Sender, EventArgs p_Event)
+        {
+            ScriptCreator l_ScriptCreator = new ScriptCreator();
+            l_ScriptCreator.ShowDialog();
         }
     }
 }

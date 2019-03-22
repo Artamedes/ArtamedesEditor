@@ -73,6 +73,16 @@ namespace ArtamedesEditor2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _55539278_2070734149711546_8815038603986993152_n {
+            get {
+                object obj = ResourceManager.GetObject("55539278_2070734149711546_8815038603986993152_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fOUjgGf {
             get {
                 object obj = ResourceManager.GetObject("fOUjgGf", resourceCulture);
