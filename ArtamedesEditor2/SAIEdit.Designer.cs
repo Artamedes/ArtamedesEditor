@@ -565,6 +565,7 @@
             this.ActionParam2.Name = "ActionParam2";
             this.ActionParam2.Size = new System.Drawing.Size(90, 21);
             this.ActionParam2.TabIndex = 21;
+            this.ActionParam2.TextChanged += new System.EventHandler(this.ActionParam2_TextChanged);
             // 
             // ActionParam1
             // 
@@ -575,6 +576,7 @@
             this.ActionParam1.Name = "ActionParam1";
             this.ActionParam1.Size = new System.Drawing.Size(90, 21);
             this.ActionParam1.TabIndex = 20;
+            this.ActionParam1.TextChanged += new System.EventHandler(this.ActionParam1_TextChanged);
             // 
             // ActionParam4_Label
             // 
@@ -609,6 +611,7 @@
             this.ActionParam4.Name = "ActionParam4";
             this.ActionParam4.Size = new System.Drawing.Size(90, 21);
             this.ActionParam4.TabIndex = 27;
+            this.ActionParam4.TextChanged += new System.EventHandler(this.ActionParam4_TextChanged);
             // 
             // ActionParam3
             // 
@@ -619,6 +622,7 @@
             this.ActionParam3.Name = "ActionParam3";
             this.ActionParam3.Size = new System.Drawing.Size(90, 21);
             this.ActionParam3.TabIndex = 26;
+            this.ActionParam3.TextChanged += new System.EventHandler(this.ActionParam3_TextChanged);
             // 
             // ActionParam6_Label
             // 
@@ -653,6 +657,7 @@
             this.ActionParam6.Name = "ActionParam6";
             this.ActionParam6.Size = new System.Drawing.Size(90, 21);
             this.ActionParam6.TabIndex = 31;
+            this.ActionParam6.TextChanged += new System.EventHandler(this.ActionParam6_TextChanged);
             // 
             // ActionParam5
             // 
@@ -663,6 +668,7 @@
             this.ActionParam5.Name = "ActionParam5";
             this.ActionParam5.Size = new System.Drawing.Size(90, 21);
             this.ActionParam5.TabIndex = 30;
+            this.ActionParam5.TextChanged += new System.EventHandler(this.ActionParam5_TextChanged);
             // 
             // SAIEdit
             // 

@@ -387,5 +387,83 @@ namespace ArtamedesEditor2
             m_SAIList[m_CurrentlySelectedID].ActionType = SmartActionComboBox.SelectedIndex;
             GenerateSQL();
         }
+
+        private void ActionParam1_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam1 = Convert.ToInt32(ActionParam1.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ActionParam2_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam2 = Convert.ToInt32(ActionParam2.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ActionParam3_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam3 = Convert.ToInt32(ActionParam3.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ActionParam4_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam4 = Convert.ToInt32(ActionParam4.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ActionParam5_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam5 = Convert.ToInt32(ActionParam5.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void ActionParam6_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                m_SAIList[m_CurrentlySelectedID].ActionParam6 = Convert.ToInt32(ActionParam6.Text);
+                GenerateSQL();
+            }
+            catch
+            {
+
+            }
+        }
     }
 }
